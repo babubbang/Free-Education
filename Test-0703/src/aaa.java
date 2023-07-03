@@ -6,6 +6,7 @@ public class aaa {
 		System.out.println("김정인은 니혼진");
 		System.out.println("김정인은 한국이 정말 싫어요");
 		System.out.println("정기 MT 추진좀,,,, 뿌엥");
+		System.out.println("우리 주제 머임?");
 	}
 
 }
