@@ -3,11 +3,11 @@ public class aaa {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("±èÁ¤ÀÎÀº ´ÏÈ¥Áø");
-		System.out.println("±èÁ¤ÀÎÀº ÇÑ±¹ÀÌ Á¤¸» ½È¾î¿ä");
-		System.out.println("Á¤±â MT ÃßÁøÁ»,,,, »Ñ¿¨");
-		System.out.println("¿ì¸® ÁÖÁ¦ ¸ÓÀÓ?");
-		System.out.println("dmdkfjkdjfkdjfkdjd");
+		System.out.println("ê¹€ì •ì¸");
+		System.out.println("ì†¡ë³‘í›ˆ");
+		System.out.println("ë¯¼ë³‘ì¤€");
+		System.out.println("ìµœí•„ë¬µ");
+		System.out.println("ì–‘ìˆ˜ë¯¼");
 	}
 
 }
