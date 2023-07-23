@@ -9,6 +9,7 @@
 <body>
 	<jsp:include page="Header.jsp"/>
     <main>∏ﬁ¿Œ</main>
+    <jsp:include page="login.jsp"/>
     <footer><jsp:include page="Test.jsp"/></footer>
 </body>
 </html>
