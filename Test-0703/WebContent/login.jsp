@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>로그인화면</h1>
+
+<form action="main.jsp" method="post">
+	ID <input type="text" name="id"><p>
+	PW <input type="password" name="pw"><p>
+	<input type="submit" value="로그인">
+</form>
+
 </body>
 </html>

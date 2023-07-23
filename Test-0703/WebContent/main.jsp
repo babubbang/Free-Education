@@ -11,6 +11,7 @@
 <body>
 	<!-- jsp include를 사용해서 파일 수정시 용이하게 함. -->
 	<jsp:include page="Header.jsp"/>
+	<jsp:include page="nav.jsp"/>
     <section>
     	<jsp:include page="mainText.jsp"/>
     </section>

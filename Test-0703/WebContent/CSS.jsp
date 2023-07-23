@@ -8,7 +8,7 @@
       }
     section {
     	background: lightblue;
-    	height: 100px;
+    	height: 300px;
       }
     footer {
     	background: lightgreen;
