@@ -9,6 +9,6 @@
 <body>
 	<jsp:include page="Header.jsp"/>
     <main>메인</main>
-    <footer>하단</footer>
+    <footer><jsp:include page="Test.jsp"/></footer>
 </body>
 </html>
