@@ -18,4 +18,5 @@
     <!-- footer 태그 안에도 jsp:include사용 가능 -->
     <footer><jsp:include page="Test.jsp"/></footer>
 </body>
+
 </html>
