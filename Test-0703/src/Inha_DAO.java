@@ -6,7 +6,7 @@ import java.sql.Statement;
 
 public class Inha_DAO {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver"); 
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
