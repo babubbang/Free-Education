@@ -12,7 +12,7 @@ public class Inha_DAO {
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
 			System.out.println("mysql 연결 성공");
 			Statement stmt = conn.createStatement();
-			stmt.executeUpdate(""); 
+			stmt.executeUpdate("");  
 			
 			conn.close();
 			
