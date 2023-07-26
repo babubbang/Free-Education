@@ -11,8 +11,8 @@ public class Inha_DAO {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
 			System.out.println("mysql 연결 성공");
-			Statement stmt = conn.createStatement();
-			stmt.executeUpdate("");           
+			//Statement stmt = conn.createStatement();
+			//stmt.executeUpdate("");           
 			
 			conn.close();
 			
