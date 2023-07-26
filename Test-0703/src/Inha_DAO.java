@@ -3,13 +3,12 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-
 public class Inha_DAO {
 
 	public static void main(String[] args) { 
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://122.43.183.107:3306/inha", "yang", "yang1234");
 			System.out.println("mysql 연결 성공");
 			//Statement stmt = conn.createStatement();
 			//stmt.executeUpdate("");           
@@ -24,3 +23,4 @@ public class Inha_DAO {
 	}
 
 }
+
