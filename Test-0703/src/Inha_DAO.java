@@ -14,6 +14,7 @@ public class Inha_DAO {
 			System.out.println("mysql 연 결 성 공");
 			//Statement stmt = conn.createStatement();
 			//stmt.executeUpdate("");           
+			//어으 수민시치
 			
 			conn.close();
 			
