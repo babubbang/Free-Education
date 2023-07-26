@@ -1,8 +1,8 @@
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
 
 public class Inha_DAO {
 
@@ -11,7 +11,8 @@ public class Inha_DAO {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
 			System.out.println("mysql 연결 성공");
-				
+			Statement stmt = conn.createStatement();
+			stmt.executeUpdate(""); 
 			
 			conn.close();
 			
