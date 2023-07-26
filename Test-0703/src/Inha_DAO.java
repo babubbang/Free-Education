@@ -11,10 +11,10 @@ public class Inha_DAO {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/inha", "root", "1234");
-			System.out.println("mysql 연 결 성 공");
+			System.out.println("mysql 연 결  성 공");
 			//Statement stmt = conn.createStatement();
 			//stmt.executeUpdate("");           
-			//어으 수민시치
+			//맛있당
 			
 			conn.close();
 			
