@@ -1,4 +1,4 @@
 
 public class DAB {
-	//양끼얏호
+	//양끼얏
 }
