@@ -10,5 +10,5 @@ header {
 </style>
 <header>
 상단
-<a class ='change' href="login.jsp">로그인</a>
+<a class ="change" href="login.jsp">로그인</a>
 </header>
