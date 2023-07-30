@@ -14,7 +14,6 @@
 	<jsp:include page="nav.jsp"/>
   		  <section>
     			<jsp:include page="mainText.jsp"/>
-    			<a href="login.jsp">로그인</a>
  		   </section>
     <!-- footer 태그 안에도 jsp:include사용 가능 -->
     <footer><jsp:include page="Footer.jsp"/></footer>
