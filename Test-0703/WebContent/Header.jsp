@@ -4,12 +4,11 @@
 header {
 	display: flex;
 }
-a {
-margin: auto 0 0 auto;
+.change {
+	margin: auto 0 0 auto;
 }
-	
 </style>
 <header>
 상단
-<a href="login.jsp">로그인</a>
+<a class ='change' href="login.jsp">로그인</a>
 </header>
