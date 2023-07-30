@@ -15,7 +15,7 @@
 	PW <input type="password" name="pw"><p>
 	전화번호 <input type="text" name="pNum"><p>
 	<input type="submit" value="완료">
-	<footer><jsp:include page="Test.jsp"/></footer>
+	<footer><jsp:include page="Footer.jsp"/></footer>
 </form>
 </body>
 </html>
