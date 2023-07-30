@@ -12,12 +12,16 @@
 	<!-- jsp include를 사용해서 파일 수정시 용이하게 함. -->
 	<jsp:include page="Header.jsp"/>
 	<jsp:include page="nav.jsp"/>
-    <section>
-    	<jsp:include page="mainText.jsp"/>
-    	<a href="login.jsp">로그인</a>
-    </section>
+	<div id="body-wrapper">
+		<div id="body-content">
+  		  <section>
+    			<jsp:include page="mainText.jsp"/>
+    			<a href="login.jsp">로그인</a>
+ 		   </section>
+   		 </div>
     <!-- footer 태그 안에도 jsp:include사용 가능 -->
     <footer><jsp:include page="Footer.jsp"/></footer>
+    </div>
 </body>
 
 </html>
