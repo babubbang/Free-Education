@@ -1,10 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <style>
-body {
-  margin-top: 30px;
-}
-
 nav ul {
   width: 100%;
   background-color: rgba(44, 42, 39, 0.983);
