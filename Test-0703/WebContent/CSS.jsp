@@ -10,4 +10,8 @@
     	background: lightblue;
     	height: 300px;
       }
+    a {
+    	text-decoration: none;
+    	color: inherit;
+    }
 </style>
