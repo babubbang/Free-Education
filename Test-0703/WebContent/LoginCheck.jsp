@@ -10,7 +10,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>로그인 확인</h1>
 <%
     String id = request.getParameter("id");
     String pw = (request.getParameter("pw")).trim();
@@ -27,6 +26,8 @@
         	response.sendRedirect("welcome.jsp");
         } else {
             out.println("<h1>접근 불가능한 사용자입니다.</h1>"); 
+            %><a href ="main.jsp"> Main</a>
+ <% 
         }
     }catch(SQLException e){
         e.printStackTrace();
