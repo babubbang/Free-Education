@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<form action="main.jsp" method="post">
+<form action="LoginCheck.jsp" method="post">
 	ID <input type="text" name="id"><p>
 	PW <input type="password" name="pw"><p>
 	<input type="submit" value="·Î±×ÀÎ">
