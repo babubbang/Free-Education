@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 <h2>성공적으로 로그아웃 되었습니다.</h2>
 <a href = "main.jsp"> Main</a>
 <a href="login.jsp"> Go to Login</a>
