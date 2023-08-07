@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+<jsp:include page="CSS.jsp"/>
+<jsp:include page="Header.jsp"/>
 입문가이드 페이지
+<footer><jsp:include page="Footer.jsp"/></footer>
 </body>
 </html>

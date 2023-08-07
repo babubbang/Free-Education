@@ -8,7 +8,7 @@
       }
     section {
     	background: lightblue;
-    	height: 300px;
+    	height: 600px;
       }
     a {
     	text-decoration: none;
