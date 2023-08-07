@@ -9,6 +9,9 @@ header {
 }
 </style>
 <header>
-상단
+<!-- 임의 사진 -->
+<button type="button" style = 'cursor:pointer;' onclick="location.href='main.jsp'">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrCB-u1aYo1-qRy4uVPLUEoVhzoOcg5xPqA&usqp=CAU"/>
+</button>
 <a class ="change" href="login.jsp">로그인</a>
 </header>

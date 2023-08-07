@@ -75,48 +75,13 @@ nav ul li {
     <nav>
         <ul>
             <li class="dropdown">
-                <div class="dropdown-menu">Menu1</div>
+                <div class="dropdown-menu"><a href="Progress.jsp">진척도</a></div>
                 <div class="dropdown-content">
-                    <a href="#">Menu1-1</a>
-                    <a href="#">Menu1-2</a>
-                    <a href="#">Menu1-3</a>
-                    <a href="#">Menu1-4</a>
                 </div>
             </li>
             <li class="dropdown">
-                <div class="dropdown-menu">Menu2</div>
+                <div class="dropdown-menu"><a href="Guide.jsp">입문가이드</div>
                 <div class="dropdown-content">
-                    <a href="#">Menu2-1</a>
-                    <a href="#">Menu2-2</a>
-                    <a href="#">Menu2-3</a>
-                    <a href="#">Menu2-4</a>
-                </div>
-            </li>
-            <li class="dropdown">
-                <div class="dropdown-menu">Menu3</div>
-                <div class="dropdown-content">
-                    <a href="#">Menu3-1</a>
-                    <a href="#">Menu3-2</a>
-                    <a href="#">Menu3-3</a>
-                    <a href="#">Menu3-4</a>
-                </div>
-            </li>
-             <li class="dropdown">
-                <div class="dropdown-menu">Menu4</div>
-                <div class="dropdown-content">
-                    <a href="#">Menu4-1</a>
-                    <a href="#">Menu4-2</a>
-                    <a href="#">Menu4-3</a>
-                    <a href="#">Menu4-4</a>
-                </div>
-            </li>
-             <li class="dropdown">
-                <div class="dropdown-menu">Menu5</div>
-                <div class="dropdown-content">
-                    <a href="#">Menu5-1</a>
-                    <a href="#">Menu5-2</a>
-                    <a href="#">Menu5-3</a>
-                    <a href="#">Menu5-4</a>
                 </div>
             </li>
         </ul>
