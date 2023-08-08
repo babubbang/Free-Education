@@ -5,7 +5,7 @@ header {
 	display: flex;
 }
 .change {
-	margin: auto 0 0 auto;
+	margin-left: auto;
 }
 </style>
 <header>
