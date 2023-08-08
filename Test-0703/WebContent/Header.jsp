@@ -10,8 +10,7 @@ header {
 </style>
 <header>
 <!-- 임의 사진 -->
-<button type="button" style = 'cursor:pointer; border-radius:20%;' onclick="location.href='main.jsp'">
-  <img src="images/로고.png" alt="아오!인공시치!"/>
-</button>
+
+<a href="main.jsp" style = 'cursor:pointer;'><img src="images/로고.png" alt="아오!인공시치!"/></a>
 <a class ="change" href="login.jsp">로그인</a>
 </header>

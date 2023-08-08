@@ -3,7 +3,6 @@
 
 <style>
 	header {
-        background: lightgray;
         height: 100px;
       }
     section {
