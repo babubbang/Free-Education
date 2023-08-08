@@ -11,7 +11,7 @@ header {
 <header>
 <!-- 임의 사진 -->
 <button type="button" style = 'cursor:pointer; border-radius:20%;' onclick="location.href='main.jsp'">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcrCB-u1aYo1-qRy4uVPLUEoVhzoOcg5xPqA&usqp=CAU"/>
+  <img src="images/로고.png" alt="아오!인공시치!"/>
 </button>
 <a class ="change" href="login.jsp">로그인</a>
 </header>
