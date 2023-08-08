@@ -8,7 +8,7 @@
     section {
     	background: lightblue;
     	height: 600px;
-		object-fit: fill;
+
       }
     a {
     	text-decoration: none;
@@ -19,7 +19,8 @@
     height: 600px;
     position: relative;
     margin: 0 auto;
-    object-fit: fill;
+    object-fit: scale-down;
+    overflow: hidden;
 }
 .slider input[type=radio]{
     display: none;
