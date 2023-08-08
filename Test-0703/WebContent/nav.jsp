@@ -80,7 +80,7 @@ nav ul li {
                 </div>
             </li>
             <li class="dropdown">
-                <div class="dropdown-menu"><a href="Guide.jsp">입문가이드</div>
+                <div class="dropdown-menu"><a href="Guide.jsp">입문가이드</a></div>
                 <div class="dropdown-content">
                 </div>
             </li>
