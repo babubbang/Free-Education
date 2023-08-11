@@ -23,7 +23,8 @@
 
         ResultSet rs = stmt.executeQuery("select * from users where id = '"+ id +"' and pw ='"+ pw +"'");
         if(rs.next()){
-        	response.sendRedirect("welcome.jsp");
+        	session.setAttribute("id", id);
+        	response.sendRedirect("LoginSuccess.jsp");
         } else {
             out.println("<h1>접근 불가능한 사용자입니다.</h1>"); 
             %><a href ="main.jsp"> Main</a>
