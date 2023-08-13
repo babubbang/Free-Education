@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="Post_read.jsp" method="get">
-	<h1>게시글 목</h1>
+	<h1>게시글 목록</h1>
 	<%
 	try
 	{

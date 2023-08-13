@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>게시글 상세 열</title>
+<title>게시글 상세 열람</title>
 </head>
 <body>
     <h1>게시글 상세 열람</h1>

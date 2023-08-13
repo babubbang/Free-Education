@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <h1>신규 게시글 작</h1>
+    <h1>신규 게시글 작성</h1>
     <form action="Post_new_send.jsp" method="post">
         <table>
             <tr>
