@@ -17,10 +17,10 @@
 	try
 	{
 		Class.forName("com.mysql.cj.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inha", "root", "1234");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/sp", "root", "0000");
         
 		
-        String insertQuery = "SELECT * FROM pratice_board.post order by nem desc";
+        String insertQuery = "SELECT * FROM post order by num desc";
         
         PreparedStatement psmt = conn.prepareStatement(insertQuery);
         
@@ -50,7 +50,7 @@
 						<tr>
 							<td><%=result.getInt("num") %></td>
 							<td><%=result.getString("writer") %></td>
-							<td><a href="post_read.jsp?num=<%=result.getInt("num") %>"><%=result.getString("title") %></a></td>
+							<td><a href="Post_read.jsp?num=<%=result.getInt("num") %>"><%=result.getString("title") %></a></td>
 							<td><%=result.getTimestamp("reg_date") %></td>
 							<td>
 								<button type="button" value="수정" onClick="location.href='Post_modify.jsp?num=<%=result.getString("num") %>'">수정</button>

@@ -10,7 +10,7 @@
 try
 {
 	Class.forName("com.mysql.cj.jdbc.Driver");
-    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inha", "root", "1234");
+    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/sp", "root", "0000");
     
     request.setCharacterEncoding("UTF-8");
     
@@ -22,7 +22,7 @@ try
 	
 	int num = 0;
 	
-	String insertQuery = "SELECT MAX(num) from pratice_board.post";
+	String insertQuery = "SELECT MAX(num) from post";
 	
 	PreparedStatement psmt = conn.prepareStatement(insertQuery);
 	
@@ -33,7 +33,7 @@ try
 	    num = result.getInt("MAX(num)") + 1;
 	}
 	
-	insertQuery = "INSERT INTO pratice_board.post(num, title, writer, content, reg_date) VALUES (?, ?, ?, ?, ?)";
+	insertQuery = "INSERT INTO post(num, title, writer, content, reg_date) VALUES (?, ?, ?, ?, ?)";
 	
 	psmt = conn.prepareStatement(insertQuery);
 	

@@ -8,13 +8,13 @@
 try
 {
 	Class.forName("com.mysql.cj.jdbc.Driver");
-    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inha", "root", "1234");
+    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/sp", "root", "0000");
     
     request.setCharacterEncoding("UTF-8");
     
     String num = request.getParameter("num");
     
-    String insertQuery = "DELETE FROM pratice_board.post WHERE num=" + num;
+    String insertQuery = "DELETE FROM post WHERE num=" + num;
     
  	PreparedStatement psmt = conn.prepareStatement(insertQuery);
 

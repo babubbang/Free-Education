@@ -9,7 +9,7 @@
 try
 {
 	Class.forName("com.mysql.cj.jdbc.Driver");
-    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inha", "root", "1234");
+    Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/sp", "root", "0000");
     
     request.setCharacterEncoding("UTF-8");
     
@@ -19,7 +19,7 @@ try
     
     String num = request.getParameter("num");
     
-    String insertQuery = "SELECT * FROM pratice_board.post WHERE num=" + num;
+    String insertQuery = "SELECT * FROM post WHERE num=" + num;
     
  	PreparedStatement psmt = conn.prepareStatement(insertQuery);
  	
@@ -27,7 +27,7 @@ try
  	
  	while(result.next())
  	{
-        insertQuery = "UPDATE pratice_board.post set title=?, writer=?, content=? WHERE num=" + num;
+        insertQuery = "UPDATE post set title=?, writer=?, content=? WHERE num=" + num;
  	    
  	    psmt = conn.prepareStatement(insertQuery);
         
