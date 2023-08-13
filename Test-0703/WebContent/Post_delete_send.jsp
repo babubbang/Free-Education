@@ -3,7 +3,6 @@
  <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.DriverManager"%>
 <%@page import="java.sql.Connection"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <%
 try
 {
@@ -20,10 +19,10 @@ try
 
     psmt.executeUpdate();
  	
-    response.sendRedirect("post_list.jsp");
+    response.sendRedirect("Post_list.jsp");
 }
 catch (Exception ex)
 {
-	out.println("오가 발생했습니다. 오류 메시지 : " + ex.getMessage());
+	out.println("오류가 발생했습니다. 오류 메시지 : " + ex.getMessage());
 }
 %>

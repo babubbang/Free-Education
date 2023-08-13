@@ -20,7 +20,7 @@
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/sp", "root", "0000");
         
 		
-        String insertQuery = "SELECT * FROM post order by num desc";
+        String insertQuery = "SELECT * FROM post order by num asc";
         
         PreparedStatement psmt = conn.prepareStatement(insertQuery);
         
@@ -49,12 +49,12 @@
 					{%>
 						<tr>
 							<td><%=result.getInt("num") %></td>
-							<td><%=result.getString("writer") %></td>
-							<td><a href="Post_read.jsp?num=<%=result.getInt("num")%>"><%=result.getString("title") %></a></td>
-							<td><%=result.getTimestamp("reg_date") %></td>
+							<td><%=result.getString("writer")%></td>
+							<td><a href="Post_read.jsp?num=<%=result.getInt("num")%>"><%=result.getString("title")%></a></td>
+							<td><%=result.getTimestamp("reg_date")%></td>
 							<td>
-								<button type="button" value="수정" onClick="location.href='Post_modify.jsp?num=<%=result.getString("num") %>'">수정</button>
-								<button type="button" value="삭제" onClick="location.href='Post_delete_send.jsp?num=<%=result.getString("num") %>'">삭제</button>
+								<button type="button" value="수정" onClick="location.href='Post_modify.jsp?num=<%=result.getString("num")%>'">수정</button>
+								<button type="button" value="삭제" onClick="location.href='Post_delete_send.jsp?num=<%=result.getString("num")%>'">삭제</button>
 							</td>
 						</tr>
 					<%
