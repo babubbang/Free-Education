@@ -8,7 +8,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
-<title>글수정</title>
+<title>글수</title>
 </head>
 <body>
     <h1>글 수정</h1>
