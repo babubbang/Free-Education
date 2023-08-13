@@ -50,7 +50,7 @@
 						<tr>
 							<td><%=result.getInt("num") %></td>
 							<td><%=result.getString("writer") %></td>
-							<td><a href="Post_read.jsp?num=<%=result.getInt("num") %>"><%=result.getString("title") %></a></td>
+							<td><a href="Post_read.jsp?num=<%=result.getInt("num")%>"></a></td>
 							<td><%=result.getTimestamp("reg_date") %></td>
 							<td>
 								<button type="button" value="수정" onClick="location.href='Post_modify.jsp?num=<%=result.getString("num") %>'">수정</button>
