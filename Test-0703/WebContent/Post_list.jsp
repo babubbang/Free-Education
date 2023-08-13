@@ -67,9 +67,5 @@
 				out.println("오류가 발생했습니다. 오류 메시지 : " + ex.getMessage());
 			}%>
 	</form>
-	
-	}
-	
-	%>
 </body>
 </html>
